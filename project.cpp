@@ -1,3 +1,20 @@
+#include<iostream>
+#define _CRT_SECURE_NO_WARNINGS
+
+using namespace std;
+
+struct book
+{
+	int id; // 책 아이디
+	char title[30]; // 책 제목
+};
+
+struct member
+{
+	int id; //학생 아이디
+	char name[30]; // 학생이름
+};
+
 int main()
 {
 	struct book books[10]; // 책 10개
